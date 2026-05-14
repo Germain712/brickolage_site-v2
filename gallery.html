@@ -1,58 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Our Portfolio | Dominica Excellence Construction</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Dominica Excellence</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html" class="active">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-logo">Dominica Excellence</a>
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span class="sr-only">Menu</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <section>
-        <div class="section-title">
-            <h2>Our Portfolio</h2>
-            <p>Explore some of our recent construction projects across Dominica.</p>
-        </div>
-        
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="images/construction-1.jpg" alt="Construction Project 1">
-            </div>
-            <div class="gallery-item">
-                <img src="images/construction-2.jpg" alt="Construction Project 2">
-            </div>
-            <div class="gallery-item">
-                <img src="images/modern-building-1.jpg" alt="Modern Building 1">
-            </div>
-            <div class="gallery-item">
-                <img src="images/modern-building-2.jpg" alt="Modern Building 2">
-            </div>
-            <div class="gallery-item">
-                <img src="images/modern-building-3.jpg" alt="Modern Building 3">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dominica-aerial.jpg" alt="Aerial View Project">
-            </div>
-        </div>
-    </section>
+    <main>
+      <section class="section">
+        <h1 class="section-title">Our Portfolio</h1>
+        <p class="section-subtitle">
+          Explore some of our recent construction projects across Dominica.
+        </p>
 
-    <footer>
-        <p>&copy; 2026 Dominica Excellence Construction. All rights reserved.</p>
-        <p>Built for the Nature Island</p>
+        <div class="gallery">
+          <img src="images/construction-1.jpg" alt="Construction project 1" />
+          <img src="images/construction-2.jpg" alt="Construction project 2" />
+          <img src="images/modern-building-1.jpg" alt="Modern building 1" />
+          <img src="images/modern-building-2.jpg" alt="Modern building 2" />
+          <img src="images/modern-building-3.jpg" alt="Modern building 3" />
+          <img src="images/dominica-aerial.jpg" alt="Aerial view of Dominica" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Dominica Excellence Construction. All rights reserved.</p>
+      <p>Built for the Nature Island</p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
