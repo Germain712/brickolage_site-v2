@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dominica Excellence Construction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Dominica Excellence</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Ready to start your project? Get in touch with us today.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div id="formFeedback" style="display: none; margin-top: 1rem; padding: 1rem; border-radius: 5px; background: #d4edda; color: #155724;">
+                    Thank you! Your message has been sent successfully.
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> Roseau, Commonwealth of Dominica</p>
+                <p><strong>Phone:</strong> +1 (767) 123-4567</p>
+                <p><strong>Email:</strong> info@dominicaexcellence.com</p>
+                <p><strong>Hours:</strong> Mon - Fri: 8:00 AM - 5:00 PM</p>
+                
+                <div class="map" style="margin-top: 2rem;">
+                    <h3>Find Us</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60741.0474623725!2d-61.411604!3d15.309167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c40292e4e7e6f33%3A0x889896728373d57!2sRoseau%2C%20Dominica!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dominica Excellence Construction. All rights reserved.</p>
+        <p>Built for the Nature Island</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
