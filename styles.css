@@ -247,6 +247,24 @@ section {
   background: var(--primary-color);
 }
 
+/* Gallery Sections */
+.gallery-section {
+  margin-bottom: 3rem;
+}
+
+.gallery-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.gallery-section.section-light {
+  background-color: var(--light-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
 /* About Section */
 .about {
   display: grid;
