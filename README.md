@@ -12,6 +12,16 @@ This site showcases a modern construction portfolio for a Dominica-based contrac
 - responsive navigation and layout
 - image-based portfolio sections for construction, masonry, foundations, and finishes
 
+## Preview
+
+Home page sample:
+
+![Home page preview](images/hero.jpg)
+
+Gallery page sample:
+
+![Gallery page preview](images/exterior-construction-view.jpeg)
+
 ## Project Structure
 
 - `index.html` — home page
