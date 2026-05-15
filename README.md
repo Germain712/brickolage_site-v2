@@ -16,11 +16,11 @@ This site showcases a modern construction portfolio for a Dominica-based contrac
 
 Home page sample:
 
-![Home page preview](images/hero.jpg)
+![Home page preview](images/home_page_screenshot.png)
 
 Gallery page sample:
 
-![Gallery page preview](images/exterior-construction-view.jpeg)
+![Gallery page preview](images/hero.jpg)
 
 ## Project Structure
 
