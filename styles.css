@@ -500,6 +500,73 @@ footer p {
   margin: 0;
 }
 
+/* Social Media Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--primary-color);
+  color: var(--white);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.3s;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  background: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+.social-links a:focus {
+  outline: 3px solid var(--focus-color);
+  outline-offset: 2px;
+}
+
+/* Large Social Links (Contact Page) */
+.social-links-large {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.social-links-large a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--light-color);
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+.social-links-large a:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.social-links-large a:focus {
+  outline: 3px solid var(--focus-color);
+  outline-offset: 2px;
+}
+
+.social-links-large i {
+  font-size: 1.2rem;
+}
+
 /* Responsive Design - Mobile First */
 @media (min-width: 640px) {
   nav {
